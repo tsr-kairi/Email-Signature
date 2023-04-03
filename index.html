@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nex-Gen Tech|| Email Signature</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .email-signature {
+        font-family: "Mukta", sans-serif;
+        background: #fff;
+        padding: 20px 45px 20px 210px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        max-width: 400px;
+      }
+      .email-signature:before,
+      .email-signature:after {
+        content: "";
+        background: linear-gradient(to right, #d87e2e, #e9a338);
+        width: 140px;
+        height: 120%;
+        border-radius: 0 150px 200px 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .email-signature:after {
+        background: #3063a6;
+        width: 160px;
+        z-index: -1;
+      }
+      .email-signature .signature-icon {
+        color: #fff;
+        background-color: #3063a6;
+        font-size: 60px;
+        text-align: center;
+        line-height: 104px;
+        width: 110px;
+        height: 110px;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        left: 70px;
+        top: 50%;
+      }
+      .email-signature .signature-details {
+        margin: 0 0 20px;
+      }
+      .email-signature .title {
+        color: #d87e2e;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin: 0 0 3px;
+      }
+      .email-signature .post {
+        color: #fff;
+        background: #3063a6;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        padding: 1px 10px;
+        display: inline-block;
+      }
+      .email-signature .signature-content {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      signature-content .email-signature .signature-content li {
+        color: #111;
+        font-size: 14px;
+        margin-bottom: 7px;
+      }
+      .email-signature .signature-content li:last-child {
+        margin-bottom: 0;
+      }
+
+      .email-signature .signature-content li i {
+        color: #fff;
+        background: #d87e2e;
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+        width: 20px;
+        height: 20px;
+        margin: 5px 6px 0 0;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .email-signature .icon {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        transform: translateY(-50%);
+        position: absolute;
+        top: 50%;
+        right: 10px;
+      }
+      .email-signature .icon li {
+        margin: 10px 0;
+      }
+      .email-signature .icon li a {
+        color: #fff;
+        background-color: #3063a6;
+        font-size: 13px;
+        text-align: center;
+        line-height: 28px;
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        display: block;
+        transition: all 0.3s;
+      }
+      .email-signature .icon li a:hover {
+        color: #3063a6;
+        background-color: #fff;
+      }
+      @media screen and (max-width: 576px) {
+        .email-signature {
+          padding: 190px 15px 60px;
+        }
+        .email-signature:before,
+        .email-signature:after {
+          height: 120px;
+          width: 100%;
+          border-radius: 0 0 500px 400px;
+          bottom: auto;
+          top: 0;
+        }
+        .email-signature:after {
+          height: 140px;
+        }
+        .email-signature .signature-icon {
+          transform: translateY(0) translateX(-50%);
+          left: 50%;
+          top: 70px;
+        }
+        .email-signature .signature-details,
+        .email-signature .signature-content {
+          width: 100%;
+          text-align: center;
+        }
+        .email-signature .icon {
+          transform: translateY(-50%) translateX(50%);
+          top: auto;
+          bottom: 0;
+          right: 50%;
+        }
+        .email-signature .icon li {
+          display: inline-block;
+          margin: 0 3px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-signature">
+      <div class="signature-icon">
+        <a href="https://tsr-portfolio.vercel.app/"
+          ><img
+            alt="RK-IMAGE"
+            border="0"
+            style="
+              border-radius: 50%;
+              height: 112px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              bottom: 0;
+              right: 0;
+            "
+            src="https://i.ibb.co/Ptn2yFy/RK-IMAGE.jpg"
+        /></a>
+      </div>
+      <div class="signature-details">
+        <h2 class="title">Ranjit Kairi</h2>
+        <span class="post">Frontend Developer</span>
+      </div>
+      <ul class="signature-content">
+        <li>
+          <a style="text-decoration: none" href="tel:9127301592"
+            ><i class="fa fa-phone"> </i> (912)273-01592</a
+          >
+          <!-- <a href="https://imgbb.com/"
+            ><img
+              class="i"
+              src="https://i.ibb.co/t2M0yPS/phone.png"
+              alt="phone"
+              border="0"
+          /></a> -->
+        </li>
+        <li>
+          <a style="text-decoration: none; color: blue" href="https://www.nex-gen.tech"
+            ><i class="fa fa-globe"></i> www.nex-gen.tech</a
+          >
+        </li>
+        <li>
+          <a style="text-decoration: none" href="mailto:ranjit@nexg.tech"
+            ><i class="fa fa-envelope"></i> ranjit@nexg.tech</a
+          >
+        </li>
+      </ul>
+      <ul class="icon">
+        <li>
+          <a
+            style="text-decoration: none"
+            href="https://www.facebook.com/tsrkairi"
+            class="fa fa-facebook-f"
+          ></a>
+        </li>
+        <li>
+          <a
+            style="text-decoration: none"
+            href="https://www.twitter.com/RanjitKairi009"
+            class="fa fa-twitter"
+          ></a>
+        </li>
+        <li>
+          <a
+            style="text-decoration: none"
+            href="https://www.linkedin.com/tsr-kairi"
+            class="fa fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            style="text-decoration: none"
+            href="https://www.instagram.com/kairi_tsr"
+            class="fa fa-instagram"
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
